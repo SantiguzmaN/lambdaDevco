@@ -1,0 +1,20 @@
+{
+  "name": "lambdagus",
+  "version": "1.0.0",
+  "description": "lambdaministerio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "locally": "node -e \"console.log(require('./index').handler(require('./event_apigateway.js')));\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git-codecommit.us-east-1.amazonaws.com/v1/repos/lambdaMinisterio"
+  },
+  "author": "tecnologia",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "lambda-local": "^2.0.0"
+  }
+}
